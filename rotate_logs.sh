@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -euo pipefail
 if [ "$#" != 2 ] ;then
     echo "Usage: $0 <archive_dir> <log_dir>"
     exit 1
